@@ -1,0 +1,17 @@
+{
+  "nome": "Etiqueta Teste",
+  "grupo": "Chocolates",
+  "conservacao": "Congelados",
+  "peso_formatado": "1.00kg",
+  "sif_lote": "Não Informado",
+  "data_entrada": "13/10/2026 16:40",
+  "validade": "12/11/2026",
+  "armazenado": "Estoque Central",
+  "responsavel_entrada": "Pedro Frade",
+  "fornecedor": "Não Informado",
+  "val_fornecedor": "12/11/2026",
+  "fab_fornecedor": "13/10/2026",
+  "nm_empresa": "CONFEITARIA CARAMELO INDÚSTRIA E COMÉRCIO LTDA",
+  "cnpj": "00.000.000/0000-00",
+  "id_produto": "38805"
+}

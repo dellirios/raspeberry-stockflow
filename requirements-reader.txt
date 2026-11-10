@@ -1,0 +1,4 @@
+# Optional; the print agent uses only the Python standard library.
+# Install in a venv, not into the system Python.
+mysql-connector-python>=8.0.0
+evdev>=1.4.0; sys_platform == 'linux'

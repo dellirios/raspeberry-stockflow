@@ -1,0 +1,19 @@
+{
+  "nome": "Peito de frango desfiado com molho de tomate artesanal, temperos naturais e ervas finas selecionadas",
+  "grupo": "Peixes",
+  "conservacao": "Refrigerado",
+  "peso": "0.500000000000",
+  "unidade_medida": "kg",
+  "peso_formatado": "0.5kg",
+  "sif_lote": "L2026-001",
+  "data_entrada": "09/11/2026 15:30",
+  "validade": "12/11/2026",
+  "armazenado": "Geladeira 01",
+  "responsavel_entrada": "Responsável Exemplo",
+  "fornecedor": "Fornecedor Exemplo",
+  "val_fornecedor": "15/11/2026",
+  "fab_fornecedor": "08/11/2026",
+  "nm_empresa": "RESTAURANTE EXEMPLO LTDA",
+  "cnpj": "00.000.000/0000-00",
+  "id_produto": "EXEMPLO-38805"
+}

@@ -1,0 +1,2 @@
+# Replace the serial with the printer's real serial before installing.
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="0a5f", ATTR{idProduct}=="0164", ATTR{serial}=="SERIAL_DA_SUA_ZEBRA", GROUP="stockflow", MODE="0660"

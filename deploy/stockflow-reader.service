@@ -1,0 +1,22 @@
+[Unit]
+Description=StockFlow Python QR reader
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=stockflow
+Group=stockflow
+SupplementaryGroups=input
+WorkingDirectory=/home/stockflow/stockflow
+ExecStart=/home/stockflow/stockflow/.venv/bin/python -m stockflow reader
+Restart=on-failure
+RestartSec=5
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+Environment=TZ=America/Sao_Paulo
+
+[Install]
+WantedBy=multi-user.target

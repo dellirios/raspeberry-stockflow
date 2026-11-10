@@ -1,0 +1,10 @@
+{
+  "impressoras": [
+    {
+      "id": "SUA_STORE_KEY",
+      "nome": "Zebra_Technologies_ZTC_ZD220-203dpi_ZPL",
+      "ativo": true,
+      "intensidade": 15
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+[Unit]
+Description=StockFlow Python print agent
+After=network-online.target cups.service
+Wants=network-online.target
+Requires=cups.service
+
+[Service]
+Type=simple
+User=stockflow
+Group=stockflow
+SupplementaryGroups=lp
+WorkingDirectory=/home/stockflow/stockflow
+ExecStart=/usr/bin/python3 -m stockflow run
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=90
+KillSignal=SIGTERM
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+Environment=TZ=America/Sao_Paulo
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,15 @@
+.env
+config/*.json
+leitor/leitor.env
+leitor/jobs.json
+leitor/*.log
+logs/
+__pycache__/
+*.py[cod]
+.venv/
+*.tar.gz
+*.zip
+*.sql
+
+# Registros privados da instalacao
+.local/
